@@ -137,10 +137,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="complex_form_source.cpp" />
+    <ClCompile Include="error_form.cpp" />
+    <ClCompile Include="error_form_source.cpp" />
     <ClCompile Include="login_form_source.cpp" />
     <ClCompile Include="Startup.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="error_code.h" />
+    <ClInclude Include="error_form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="login_form.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -151,6 +157,9 @@
   <ItemGroup>
     <EmbeddedResource Include="complex_form.resx">
       <DependentUpon>complex_form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="error_form.resx">
+      <DependentUpon>error_form.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login_form.resx">
       <DependentUpon>login_form.h</DependentUpon>

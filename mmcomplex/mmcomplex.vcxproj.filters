@@ -21,6 +21,12 @@
     <ClInclude Include="complex_form.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="error_form.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Startup.cpp">
@@ -32,9 +38,18 @@
     <ClCompile Include="complex_form_source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="error_form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error_form_source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="login_form.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="complex_form.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
   </ItemGroup>
