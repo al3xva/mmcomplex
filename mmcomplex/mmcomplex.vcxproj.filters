@@ -29,5 +29,13 @@
     <ClCompile Include="login_form_source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="complex_form_source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="login_form.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

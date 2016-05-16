@@ -136,6 +136,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="complex_form_source.cpp" />
     <ClCompile Include="login_form_source.cpp" />
     <ClCompile Include="Startup.cpp" />
   </ItemGroup>
@@ -148,6 +149,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="complex_form.resx">
+      <DependentUpon>complex_form.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login_form.resx">
       <DependentUpon>login_form.h</DependentUpon>
     </EmbeddedResource>
